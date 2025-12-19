@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Photography</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+
+        /* Main Section */
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1;
+        }
+
+        section h2 {
+            color: #2e7d32;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Media Query for Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nature Photography</h1>
+        <p>Capturing the beauty of the natural world</p>
+        <img src="nature.jpg" alt="Nature Photography Cover Image">
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                Nature photography focuses on capturing the beauty of landscapes,
+                wildlife, plants, and natural scenes.
+            </p>
+        </section>
+
+        <section>
+            <h2>Importance</h2>
+            <p>
+                It helps people appreciate nature and creates awareness about
+                environmental protection.
+            </p>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>
+                Nature photography inspires people to respect and conserve
+                the environment for future generations.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Nature Photography</p>
+    </footer>
+
+</body>
+</html>
